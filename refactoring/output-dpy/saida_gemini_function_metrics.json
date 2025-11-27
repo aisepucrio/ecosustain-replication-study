@@ -1,0 +1,132 @@
+[
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "__init__",
+        "LOC": 17,
+        "CC": 2,
+        "PC": 4
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "information_gathering",
+        "LOC": 34,
+        "CC": 11,
+        "PC": 3
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "_categorize_tokens",
+        "LOC": 14,
+        "CC": 2,
+        "PC": 3
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "_process_char_stats",
+        "LOC": 67,
+        "CC": 20,
+        "PC": 6
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "pattern_generation",
+        "LOC": 46,
+        "CC": 14,
+        "PC": 2
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "pattern_coverage_statictics",
+        "LOC": 14,
+        "CC": 4,
+        "PC": 0
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "__init__",
+        "LOC": 15,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "information_gathering",
+        "LOC": 19,
+        "CC": 7,
+        "PC": 3
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "_update_token_info",
+        "LOC": 5,
+        "CC": 2,
+        "PC": 2
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "_categorize_tokens",
+        "LOC": 20,
+        "CC": 3,
+        "PC": 4
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "_generate_token_char",
+        "LOC": 53,
+        "CC": 15,
+        "PC": 7
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "pattern_generation",
+        "LOC": 27,
+        "CC": 5,
+        "PC": 2
+    },
+    {
+        "Project": "saida_gemini",
+        "Package": "saida_gemini",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "pattern_coverage_statictics",
+        "LOC": 13,
+        "CC": 4,
+        "PC": 0
+    }
+]

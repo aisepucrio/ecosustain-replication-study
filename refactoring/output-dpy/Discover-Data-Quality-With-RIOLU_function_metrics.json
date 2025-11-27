@@ -1,0 +1,432 @@
+[
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "Auto-RIOLU",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "Auto-RIOLU",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 7,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "Auto-RIOLU",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "Guided-RIOLU",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "Guided-RIOLU",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "__init__",
+        "LOC": 17,
+        "CC": 2,
+        "PC": 4
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "information_gathering",
+        "LOC": 42,
+        "CC": 11,
+        "PC": 3
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "pattern_generation",
+        "LOC": 159,
+        "CC": 34,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_generator",
+        "Class": "PatternGenerator",
+        "Method": "pattern_coverage_statictics",
+        "LOC": 18,
+        "CC": 4,
+        "PC": 0
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_selector",
+        "Class": "PatternSelector",
+        "Method": "__init__",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_selector",
+        "Class": "PatternSelector",
+        "Method": "sort_coverage",
+        "LOC": 2,
+        "CC": 1,
+        "PC": 0
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_selector",
+        "Class": "PatternSelector",
+        "Method": "select_patterns",
+        "LOC": 19,
+        "CC": 2,
+        "PC": 0
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "__init__",
+        "LOC": 15,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "information_gathering",
+        "LOC": 39,
+        "CC": 10,
+        "PC": 3
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "pattern_generation",
+        "LOC": 159,
+        "CC": 34,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "pattern_summarizer",
+        "Class": "PatternGenerator",
+        "Method": "pattern_coverage_statictics",
+        "LOC": 17,
+        "CC": 4,
+        "PC": 0
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "split_and_validate",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "bag_of_characters_summary",
+        "LOC": 9,
+        "CC": 2,
+        "PC": 1
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "symbol_length",
+        "LOC": 25,
+        "CC": 8,
+        "PC": 3
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "token_info",
+        "LOC": 41,
+        "CC": 8,
+        "PC": 3
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "rank_and_threshold",
+        "LOC": 18,
+        "CC": 3,
+        "PC": 3
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "pattern_matching",
+        "LOC": 3,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU",
+        "Module": "utils",
+        "Class": "Utils",
+        "Method": "find_exact_match_elements",
+        "LOC": 4,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "20_subsampling",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "20_subsampling",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 7,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "20_subsampling",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "no_selection",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "no_selection",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "no_selection",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_rcov_95",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_rcov_95",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_rEM_1",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_rEM_1",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 7,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_rEM_1",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_selection_threshold",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_selection_threshold",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 7,
+        "CC": 3,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.ablation_study",
+        "Module": "static_selection_threshold",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.sensitivity_analysis",
+        "Module": "Auto_RIOLU_alt_inircov",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.sensitivity_analysis",
+        "Module": "Auto_RIOLU_alt_inircov",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 7,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.sensitivity_analysis",
+        "Module": "Auto_RIOLU_alt_inircov",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.sensitivity_analysis",
+        "Module": "Auto_RIOLU_alt_nsubset",
+        "Class": "",
+        "Method": "get_dataframe",
+        "LOC": 5,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.sensitivity_analysis",
+        "Module": "Auto_RIOLU_alt_nsubset",
+        "Class": "",
+        "Method": "coverage_estimation",
+        "LOC": 7,
+        "CC": 1,
+        "PC": 2
+    },
+    {
+        "Project": "Discover-Data-Quality-With-RIOLU",
+        "Package": "Discover-Data-Quality-With-RIOLU.sensitivity_analysis",
+        "Module": "Auto_RIOLU_alt_nsubset",
+        "Class": "",
+        "Method": "coverage",
+        "LOC": 9,
+        "CC": 4,
+        "PC": 2
+    }
+]
