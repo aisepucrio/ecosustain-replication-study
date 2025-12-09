@@ -9,10 +9,10 @@ import shutil
 # 🔧 CONFIGURAÇÕES DO EXPERIMENTO
 # ============================
 
-# 👉 Escolha o provedor de IA
+# 👉 Escolha o provedor de IA (somente gemini implementado)
 IA_PROVIDER = "gemini" 
 # 👉 Nome da pasta do artefato a ser analisado
-NOME_ARTEFATO = "Discover-Data-Quality-With-RIOLU"
+NOME_ARTEFATO = "ndp"
 
 # Pasta onde estão os artefatos (projetos alvo para refatoração)
 PASTA_ARTEFATOS = r"C:\Users\PUC\Documents\AISE\ecosustain-replication-study\artefatos"
@@ -31,8 +31,31 @@ PASTA_FILTERED = os.path.join(BASE_REFACTOR, "filtered-dpy")
 
 # 👉 Caminho completo do artefato selecionado
 ARTEFATO_PATH = os.path.join(PASTA_ARTEFATOS, NOME_ARTEFATO)
+
+PROMPT_TEMPLATE = f"""
+            You are an advanced model specialized in **safe Python code refactoring**.
+
+            Your goal is to transform the code into a **cleaner, more maintainable, and more readable version**, while guaranteeing:
+            - **identical behavior**
+            - **full module compatibility**
+            - **zero API breaks**
+
+            ### Detected Code Smells to Fix
+            {smell}
+
+            ### ⚠️ API Stability Rules (DO NOT BREAK)
+            - Do NOT rename, move or remove public functions, classes, attributes or variables.
+            - Do NOT change any function signature.
+            - Preserve imports unless definitively unused.
+            - If unsure, treat as public.
+
+            ### 📌 Output Rules
+            1. Output only the refactored code.
+            2. No explanations or comments.
+            3. Do not introduce new smells.
+        """
 # ============================
-# 🔐 CHAVES DE API
+# 🔐 CHAVES DE API -- CRIAR UM .ENV
 # ============================
 
 load_dotenv()
@@ -143,28 +166,7 @@ def prompt_instructions(pasta_output, arquivos):
 def gera_prompt(smell_list):
     prompts = []
     for smell in smell_list:
-        prompt = f"""
-            You are an advanced model specialized in **safe Python code refactoring**.
-
-            Your goal is to transform the code into a **cleaner, more maintainable, and more readable version**, while guaranteeing:
-            - **identical behavior**
-            - **full module compatibility**
-            - **zero API breaks**
-
-            ### Detected Code Smells to Fix
-            {smell}
-
-            ### ⚠️ API Stability Rules (DO NOT BREAK)
-            - Do NOT rename, move or remove public functions, classes, attributes or variables.
-            - Do NOT change any function signature.
-            - Preserve imports unless definitively unused.
-            - If unsure, treat as public.
-
-            ### 📌 Output Rules
-            1. Output only the refactored code.
-            2. No explanations or comments.
-            3. Do not introduce new smells.
-        """
+        prompt = PROMPT_TEMPLATE
         prompts.append(prompt)
     return prompts
 

@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # === CONFIGURAÇÃO ===
-artefato = "Discover-Data-Quality-With-RIOLU"
+artefato = "ndp"
 base_path = r"C:\Users\PUC\Documents\AISE\ecosustain-replication-study\refactoring\output-dpy"
 
 # Caminhos dos arquivos JSON

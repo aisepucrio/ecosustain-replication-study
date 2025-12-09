@@ -1,18 +1,14 @@
 import os
 import subprocess
-from codecarbon import EmissionsTracker
-
-tracker = EmissionsTracker()
-tracker.start()
 
 # Caminho para o dpy
-diretorio_dpy = r"C:\Users\guicu\OneDrive\Documentos\prog\ecosustain\DPy\DPy\windows"
+diretorio_dpy = r"C:\Users\PUC\Documents\DPy"
 
 # Pasta onde estão os artefatos
-pasta_base = r"C:\Users\guicu\OneDrive\Documentos\prog\ecosustain\artifact\artifacts"
+pasta_base = r"C:\Users\PUC\Documents\AISE\ecosustain-replication-study\artefatos"
 
 # Pasta base para saída
-pasta_saida_base = r"C:\Users\guicu\OneDrive\Documentos\prog\ecosustain\output-dpy"
+pasta_saida_base = r"C:\Users\PUC\Documents\AISE\saida-dpy"
 
 subpastas = [p for p in os.listdir(pasta_base) if os.path.isdir(os.path.join(pasta_base, p))]
 total = len(subpastas)
@@ -36,5 +32,3 @@ for i, nome_pasta in enumerate(subpastas, start=1):
     subprocess.run(" ".join(comando), cwd=diretorio_dpy, shell=True)
 
 print("Todas as análises foram concluídas.")
-
-tracker.stop()

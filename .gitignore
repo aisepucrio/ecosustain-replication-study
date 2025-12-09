@@ -1,3 +1,5 @@
 venv/
 .env
-artifacts/
+artefatos/
+artefatos_refatorados/
+ddqwr-venv/
