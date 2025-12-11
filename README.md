@@ -13,10 +13,9 @@ Este repositório contém o estudo de replicação do EcoSustain, permitindo rod
 
 ### 1. Gerar CSV dos Artefatos ICSE
 
-Dentro da pasta `scrapping-icse`:
+Dentro da pasta `01_SCRAPPING-ARTIFACTS`:
 
 python scrapping_icse.py
-
 
 Isso criará um CSV indicando todos os arquivos ICSE e se possuem artefato.
 
@@ -27,24 +26,26 @@ Ex.: `~/EcoSustain/artefatos/`.
 
 ### 3. Configurar DPY
 
-Baixe o DPY no seu computador.  
+Baixe o DPY no seu computador. 
+[text](https://www.designite-tools.com/products-dpy)
 
-Entre na pasta `run-dpy` e configure:
+Entre na pasta `03_RUN-DPY` e configure:
 
 - `diretorio_dpy` → caminho para o DPY  
 - `pasta_base` → caminho para a pasta com os artefatos  
 - `pasta_saida_base` → pasta de saída para resultados
 
-### 4. Instrumentar Artefatos com CodeCarbon e Psutil
+### 4. Inserir Codecarbon e Psutil nos Artefatos
 
-Abra `implement-tools-into-artifact/implement-tools.py`.  
+Na pasta `02_IMPLEMENTING-TOOLS-INTO-ARTIFACT`
+
+Abra `implement-tools.py`.  
 
 Altere a variável `artifacts_path` para o caminho da pasta com os artefatos.  
 
 Execute o script:
 
 python implement-tools.py
-
 
 Isso vai adicionar CodeCarbon e psutil a todos os arquivos `.py` dentro de cada artefato.
 
@@ -110,7 +111,7 @@ Depois basta rodar python main.py
 
 Em data_analysis.py:
 Configure:
-artefato = "Web-Ads-Accessibility"
+artefato = "NOME-DO-ARTEFATO"
 base_path = r"C:\Users\PUC\Documents\AISE\ecosustain-replication-study\refactoring\output-dpy"
 
 Depois rode python data_analysis.py para ver a comparação dos resultados
