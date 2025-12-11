@@ -22,6 +22,7 @@ Isso criará um CSV indicando todos os arquivos ICSE e se possuem artefato.
 ### 2. Organizar os Artefatos
 
 Coloque todos os artefatos baixados ou clonados em uma pasta no seu computador.  
+Nesse repositório, alguns artefatos do ano de 2025 estão como submodules.
 Ex.: `~/EcoSustain/artefatos/`.
 
 ### 3. Configurar DPY
